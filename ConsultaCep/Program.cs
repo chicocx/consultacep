@@ -14,7 +14,7 @@ namespace ConsultaCep
         {
 
             // Cria o objeto request à partir da URL. 		
-            WebRequest request = WebRequest.Create("http://solutioin.com/toth/services/cepservice/consultarcep/72900390");
+            WebRequest request = WebRequest.Create("http://solutioin.com/toth/services/cepservice/consultarcep/74460180");
             // Se necessário, é possível setar as credenciais.
             request.Credentials = CredentialCache.DefaultCredentials;
             // Obtém a resposta.
@@ -33,6 +33,7 @@ namespace ConsultaCep
             reader.Close();
             dataStream.Close();
             response.Close();
+
         }
     }
 }
